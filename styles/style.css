@@ -59,6 +59,11 @@ h2 {
 .images {
     display: flex;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .element {
     width: 100%;
 }
@@ -195,6 +200,20 @@ footer {
     }
     .image {
         width: 100%;
+    }
+    .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        width: 100%;
+    }
+    
+    .images img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
 }

@@ -14,6 +14,8 @@ header {
     object-fit: cover;
     object-position: center center;
     color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
 }
 ul {
     display: flex;
@@ -26,8 +28,6 @@ a {
     align-items: center;
     justify-content: center;
     display: flex;
-    height: ;
-
 }
 h1 {
     font-family:"Fraunces", serif ;

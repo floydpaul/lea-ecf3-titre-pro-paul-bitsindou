@@ -181,4 +181,20 @@ footer {
         transform: rotate(-45deg);
         transform-origin: 5% 50%;
     }
+    .transform {
+        display: block;
+    }
+    .standout {
+        display: block;
+    }
+    .no-title {
+        display: block;
+    }
+    .testimonials {
+        display: block;
+    }
+    .image {
+        width: 100%;
+    }
+
 }

@@ -74,6 +74,9 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+.icon {
+    margin: 75px 25px;
+}
 footer {
     display: flex;
     justify-content: center;

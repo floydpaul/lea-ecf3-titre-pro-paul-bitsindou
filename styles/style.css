@@ -194,6 +194,11 @@ footer {
         transform: rotate(-45deg);
         transform-origin: 5% 50%;
     }
+    .background-container {
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
     .transform {
         display: block;
     }

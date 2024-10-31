@@ -84,6 +84,7 @@ footer {
 .background-container {
     position: relative;
     text-align: center;
+    width: 50%;
 }
 
 .background-container img {

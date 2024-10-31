@@ -80,9 +80,18 @@ h2 {
 footer {
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
 }
-.image {
-    width: 675px;
+.image-container {
+    width: 50%; 
+    display: flex;
+    justify-content: center; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+    display: block; 
 }
 .background-container {
     position: relative;
@@ -202,6 +211,11 @@ footer {
         text-align: center;
         width: 100%;
     }
+    .image-container {
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+    }
     .transform {
         display: block;
     }
@@ -226,7 +240,6 @@ footer {
     .images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-
         width: 100%;
     }
     
@@ -234,7 +247,6 @@ footer {
         width: 100%;
         height: auto;
         display: block;
-        border-radius: 5px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
